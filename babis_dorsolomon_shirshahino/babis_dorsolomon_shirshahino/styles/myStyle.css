@@ -1,0 +1,386 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    direction: rtl;
+    background-color: #00ced14d;
+    margin: 0 auto;
+    height: auto;
+    overflow-x:hidden;
+}
+/*--------------------- דף בית------------------*/
+/*--------------------- תפריט שפות------------------*/
+#LanguageNAV ul {
+    direction: ltr;
+    font-size: 13pt;
+    
+}
+    #LanguageNAV ul li {
+        display: inline-block;
+        content: " |";
+    }
+#logo {
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-right: 18px;
+    margin-top: -20px;
+}
+
+/*תפריט הניווט העליון*/
+#top ul {
+    display: inline-block;
+    background-color: #ffce88;
+    width: 795px;
+    height: 50px;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-right: 94px;
+    border: outset 5px #f7b658;
+    border-radius: 22px;
+}
+
+    #top ul li {
+        display: inline-block;
+        float: right;
+     }
+    #top ul li :hover{
+        font-weight:bolder;
+        background-color:white;
+        display: inline-block;
+        float: right;
+    }
+/*עיצוב הקישורים שנמצאים בתפריט הניווט העליון*/
+.beforeActive {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16pt;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    width: 180px;
+    color: black;
+}
+.noactive {
+    cursor: not-allowed;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16pt;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    width: 180px;
+   
+}
+/*עיצוב החלק האמצעי באתר שכולל את התמונה של התינוק אוכל*/
+.main {
+    background-size: cover;
+    background-image: url('../image/cute-baby-boy-highchair-choosing-what-eat.jpg');
+    height: 654px;
+    width: 1278px;
+    margin: auto;
+}
+    .main h1 {
+        font-size: 70px;
+        float: right;
+        padding-right: 116px;
+        background-color: rgb(230 230 230 / 30%);
+        font-family: 'Varela Round', sans-serif;
+    }
+    .main h2 {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 37px;
+        float: right;
+        padding-top: 264px;
+        padding-right: 347px;
+        text-align: center;
+    }
+
+.row {
+    height: 600px;
+    width: 1500px;
+    display: inline-block;
+    margin-right: 229px;
+}
+.hayadata, .recipemenu {
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    margin-right: 89px;
+    height: 200px;
+    width: 400px;
+    margin: 23px 70px;
+    background-color: #ffce88;
+    border: outset 5px #f7b658;
+    border-radius: 22px;
+    text-align: center;
+}
+
+/*עיצוב תפריוט ניווט הפוטר*/
+#footer {
+    
+    text-align: center;
+    position: relative;
+    margin-right: 34px;
+    padding-bottom: 10px;
+}
+.noactivefooter {
+    cursor: not-allowed;
+    color: gray;
+}
+#footer ul {
+    text-align: center;
+    margin-right: -38px;
+    margin-top: -12px;
+}
+        #footer ul li {
+            font-family: 'Varela Round', sans-serif;
+            display: inline-block;
+            font-size: 15px;
+            padding-right: 14px;
+            margin-right: 18px;
+        }
+
+/*---------------------סוף עמוד הבית-----------------*/
+/*---------------------דף אלרגיות-----------------*/
+.alergich1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.alergich2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+   
+    .alergich3 {
+        font-family: 'Varela Round', sans-serif;
+        margin-top: -37px;
+        display: inline-block;
+    }
+.sectionpP {
+    line-height: 30px;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+    .sectionpP p {
+        margin-right: 50px;
+    }
+.sectionpP img {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+    .sectionpPdown {
+        font-family: 'Varela Round', sans-serif;
+        padding: 20px;
+        margin-right: 80px;
+    }
+/*---------------------סוף דף אלרגיות -----------------*/
+/*---------------------דף שאלות תשובות-----------------*/
+.main1 h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.main1 h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.ask {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20pt;
+    border: 1px;
+    line-height: 30px;
+    padding: 0px 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#answer {
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid black;
+    font-size: 15pt;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px 5px;
+}
+/*---------------------סוף שאלות תשובות-----------------*/
+/*---------------------דף אודות-----------------*/
+.pages {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15pt;
+    line-height: 30px;
+    padding: 0px 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.odoth1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.odoth2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+#odot {
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid black;
+    font-size: 15pt;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px 10px;
+}
+.pages h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}
+div >img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-right: 380px;
+    padding-bottom:20px;
+}
+/*---------------------סוף דף אודות-----------------*/
+/*---------------------דף צור קשר-----------------*/
+#contact {
+    background-size: cover;
+    background-image: url('../image/portrait-little-boy-speaking-by-vintage-phone.jpg');
+    height: 400px;
+    width: 800px;
+    margin: auto;
+}
+.contacth1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 60px;
+   padding:80px 80px;
+}
+form {
+    font-family: 'Varela Round', sans-serif;
+    margin-right:50px;
+}
+/*---------------------סוף צור קשר-----------------*/
+/*---------------------מפת אתר-----------------*/
+.siteh1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.webmap {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15pt;
+    
+}
+/*--------------------- סוף מפת אתר-----------------*/
+/*---------------------תפריט פירורי לחם-----------------*/
+nav ol li {
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    nav ol li:after {
+        content: ">";
+    }
+
+    nav ol li:last-child:after {
+        content: "";
+    }
+
+/*--------------------- גלריה- תכנות-----------------*/
+
+
+.mySlides > img {
+    margin: auto;
+    margin-right: 459px;
+    height: 386px;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    top: 40%;
+    width: auto;
+    padding: 9px;
+    margin-right: 490px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color:white;
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: black;
+    font-size: 10px;
+    margin-right: 460px;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #ffce88;
+    padding: 2px 16px;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: right;
+    width: 16.66%;
+    
+}
+    .column > img {
+        margin: auto;
+        margin-right: -220px;
+    }
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+    opacity: 0.6;
+    display: inline;
+    
+}
+
+    .active,
+    .demo:hover { /*מגדיר את כל תמונות לאופסיטי נמוכה*/
+        opacity: 1;
+    }
